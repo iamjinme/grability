@@ -1,0 +1,10 @@
+{
+  "name": "grability",
+  "version": "0.0.1",
+  "description": "Code Challenge: Cube Summation",
+  "main": "server.js",
+  "author": "Jinme Mirabal",
+  "dependencies": {
+    "express": "~4.7.2"
+  }
+}
