@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Cube Summation: Results
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(href='//fonts.googleapis.com/css?family=Raleway:400,300,600', rel='stylesheet')
+    link(href='css/normalize.css', rel='stylesheet')
+    link(href='css/skeleton.css', rel='stylesheet')
+    link(href='css/custom.css', rel='stylesheet')
+  body
+    .section.hero
+      .container
+        if error 
+          h1 Oops! #{error}
+        else
+          h2 ...and the results are:
+          ul
+            each val in results
+              li= val
+        button.button-primary(onclick="javascript:history.back()") Back
