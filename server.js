@@ -21,7 +21,7 @@ app.set('views', __dirname + '/public');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-/* Routes */
+// Routes
 app.post('/', function(req, res) {
   var lines = req.body.commands.split('\n');
   var error = execute(lines);
@@ -163,4 +163,4 @@ function isNumber(n) {
   return !isNaN(parseInt(n)) && isFinite(n);
 }
 
-// EOF < 160 lines
+// EOF < 170 lines
