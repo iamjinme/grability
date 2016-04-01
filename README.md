@@ -41,5 +41,8 @@ Se ha creado un objeto *JSON* llamado **errors** para manejar los posibles error
 4. La validación de los datos y el procesamiento se realizan de forma paralela, esto debido a que resultaría en una doble carga hacer ambas cosas por separado *(pero siempre se podrá, todo depende del contexto)*.
 5. La función execute puede ser optimizada mucho más *(el uso de parseInt(), por ejemplo)*, pero para ser un trabajo de 10 horas me parece está bastante bien. Cualquier sugerencia es bienvenida, así como reporte de algun *bug*. 
 
+### TODO
+- Convertir la función de validación en un metodo de una clase u objeto JSON.
+
 #Espero que sea de tú agrado!
 
