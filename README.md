@@ -6,12 +6,12 @@ Implementación en Javascript (NodeJS Framework) del reto en [HackerRank](https:
 ###Instalación y ejecución
 Sigue estos pasos:
 
-  $ git clone https://github.com/mirabalj/grability.git
-  $ cd grability
-  $ npm install
-  $ node server.js
+- git clone https://github.com/mirabalj/grability.git
+- cd grability
+- npm install
+- node server.js
 
-Luego vas a la [dirección](http://localhost:8080) de la aplicación 
+Luego vas a la [dirección](http://localhost:8080) de la aplicación en el navegador. Listo.
 
 ###Modelo
 La clase principal se encuentra en el archivo *server.js*, se llama Matrix, se definieron los métodos necesarios, siguiendo el *SRP*:
