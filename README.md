@@ -28,10 +28,10 @@ La vista es administrada en primera instancia por **ExpressJS**, modulo del fram
 ###Controlador
 El archivo controlador es *server.js*, el cual contiene toda la lógica del reto. Al ser un archivo de menos de 170 lineas, pareció *opcional* dividirlo en módulos más pequeños. Así mismo podemos encontrar dentro, la función **execute** que se usa para procesar por lotes los comandos recibidos por la vista y una función auxiliar **isNumber**.
 
-**Rutas: **
+**Rutas:**
 NodeJS maneja la creación de rutas para responder a las peticiones vía Web. En este caso sólo se hizo necesaria la respuesta al metodo **POST** en la raiz de la aplicación con *app.post('/')*.
 
-**Objetos: **
+**Objetos:**
 Se ha creado un objeto *JSON* llamado **errors** para manejar los posibles errores encontrados en la validación de los datos obtenidos.
 
 ###Observaciones
